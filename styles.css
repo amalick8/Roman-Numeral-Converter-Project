@@ -1,0 +1,65 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fdf6f0;
+  color: #3e3a39;
+  padding: 60px;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 2rem;
+  margin-top: -5px;
+  margin-bottom: 25px;
+  color: #b04e50;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#rmc-input-div {
+  border: 2px solid #e8d7d7;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  background-color: #fff8f6;
+}
+
+#output {
+  border: 2px solid #e8d7d7;
+  margin-top: 30px;
+  font-size: 1.75rem;
+  padding: 5px;
+  color: #3e3a39;
+  border-radius: 10px;
+  background-color: #fff8f6;
+}
+
+#number {
+  padding: 10px;
+  border: 3px solid #b04e50;
+  border-radius: 10px;
+  background-color: #fff8f6;
+  color: #3e3a39;
+}
+#rmc-input-div h1, #output h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;       
+  font-size: 1.75rem;      
+  color: #3e3a39;          
+  margin-bottom: 20px;     
+}
+
+button {
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #b04e50;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d9676a;
+}
